@@ -1,0 +1,48 @@
+{
+  "name": "seleccion-electivas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "db:generate": "drizzle-kit generate:sqlite",
+    "db:push": "drizzle-kit push:sqlite",
+    "db:studio": "drizzle-kit studio",
+    "db:seed": "tsx src/db/seed.ts"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.6.2",
+    "bcryptjs": "^2.4.3",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.31.0",
+    "jose": "^5.3.0",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.8.2",
+    "lucide-react": "^0.378.0",
+    "next": "14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7",
+    "tailwind-merge": "^2.3.0",
+    "xlsx": "^0.18.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
+    "drizzle-kit": "^0.21.1",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "tsx": "^4.11.0",
+    "typescript": "^5.4.5"
+  }
+}
