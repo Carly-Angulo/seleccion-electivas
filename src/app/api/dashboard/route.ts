@@ -78,6 +78,8 @@ export async function GET() {
         const occupied = countResult[0].count;
         return {
           subject: subject.name,
+          grade: subject.grade,
+          type: subject.type,
           total: subject.capacity,
           occupied,
           available: subject.capacity - occupied,
